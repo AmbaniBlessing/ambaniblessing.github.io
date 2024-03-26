@@ -1,0 +1,95 @@
+/* style.css */
+header {
+    background-color: white;  
+}
+nav ul {
+    list-style-type: none ; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* ensures all navigation items stay in one line*/
+    display: flex;
+    float: right;
+}
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px; /* Padding around each navigation link */
+    text-decoration: none; /* Remove underline from links */
+}
+nav ul li a:hover {
+    background-color: brown; /* change background color on hover */
+}
+body{
+    background-image: url(pic1.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    line: height: 1.6 ;
+    width: 1350px;
+    height:5px;
+
+}
+
+#mypic2{
+width: 300px; /* set the width of the image */
+height: 200px; /* set the heigth of the image */
+border: 1px solid black; /* add border around the pic2 */
+border-radius: 10px; /* round the corners of the image */
+
+box-shadow: 3px 3px 5px rgba(0,0,0,0,3); /* add a shadow effect to the image */
+}
+#mypic3 {
+    width: 300px; /* set the width of the image */
+    height: 200px; /* set the heigth of the image */
+    border: 1px solid black; /* add border around the pic3 */
+    border-radius: 10px; /* round the corners of the image */
+    
+    box-shadow: 3px 3px 5px rgba(0,0,0,0,3); /* add a shadow effect to the image */
+}
+#mypic4 {
+    width: 300px; /* set the width of the image */
+    height: 200px; /* set the heigth of the image */
+    border: 1px solid black; /* add border around the pic4 */
+    border-radius: 10px; /* round the corners of the image */
+    
+    box-shadow: 3px 3px 5px rgba(0,0,0,0,3); /* add a shadow effect to the image */
+}
+
+.jj{
+    float: left;
+}
+.ss{
+    float: right;
+}
+#mypic5 {
+    width: 300px; /* set the width of the image */
+    height: 200px; /* set the heigth of the image */
+    border: 1px solid black; /* add border around the pic5 */
+    border-radius: 10px; /* round the corners of the image */
+    
+    box-shadow: 3px 3px 5px rgba(0,0,0,0,3); /* add a shadow effect to the image */
+    }
+    #mypic6 {
+        width: 300px; /* set the width of the image */
+        height: 200px; /* set the heigth of the image */
+        border: 1px solid black; /* add border around the pic6 */
+        border-radius: 10px; /* round the corners of the image */
+        
+        box-shadow: 3px 3px 5px rgba(0,0,0,0,3); /* add a shadow effect to the image */
+    }
+    #mypic7 {
+        width: 300px; /* set the width of the image */
+        height: 200px; /* set the heigth of the image */
+        border: 1px solid black; /* add border around the pic7 */
+        border-radius: 10px; /* round the corners of the image */
+        
+        box-shadow: 3px 3px 5px rgba(0,0,0,0,3); /* add a shadow effect to the image */
+    }
+    .tt{
+        float: left;
+    }
+    .ww{
+        float: right;
+    } 
+    .pp{
+        float: right;
+    } 
